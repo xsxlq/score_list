@@ -1,0 +1,160 @@
+@font-face {
+  font-family: 'iconfont';
+  src: url('../font/iconfont.eot');
+  src: url('../font/iconfont.eot?#iefix') format('embedded-opentype'),
+  url('../font/iconfont.woff') format('woff'),
+  url('../font/iconfont.ttf') format('truetype'),
+ url('../font/iconfont.svg#iconfont') format('svg');
+}
+@font-face {
+	font-family:'tieshan';
+	src: url('../font/111.ttf');
+}
+body{
+	font-family: tieshan;
+}
+.iconfont{
+  font-family:"iconfont" !important;
+  font-size:16px;font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+.wai .notice:after,.menu:after{
+	content: "";
+	clear: both;
+	display: block;
+}
+.wai{
+	width: 1024px;
+	margin: 0px auto;
+	padding: 0px;
+}
+.notice{
+	padding: 5px 10px;
+	background: #303135;
+	color: white;
+}
+.bg_white{
+	background: white;
+}
+.bg_black{
+	background: #303135;
+}
+.notice .left{
+	float: left;
+	vertical-align: center;
+}
+.notice .right{
+	float: right;
+	vertical-align: center;
+}
+.color_white{
+	
+}
+.color_green{
+	color: #0EC47E;
+}
+.color_blue{
+	color: #3DA4C4;
+}
+.big{
+	font-size: 18px;
+}
+.power{
+	float: right;
+	width: 50px;
+	height: 16px;
+	border-radius: 8px;
+	background: white;
+	margin: 5px;
+}
+.menu{
+	background: #393A3F;
+	color: white;
+	padding: 10px 20px;
+}
+.menu .close ,.menu .title{
+	float: left;
+}
+.menu .more{
+	float: right;
+}
+.menu .close {
+	width: 80px;
+	margin-left: 30px;
+	border-right: 1px solid #2E2E32;
+}
+.bigger{
+	font-size: 40px;
+}
+.menu .title{
+	margin-left: 40px;
+}
+.name h1{
+	text-align: center;
+	font-size: 80px;
+	color: #3CC51F;
+}
+.num{
+	text-align: center;
+	color: #888888;
+	font-size: 30px;
+}
+.list{
+	margin-top: 70px;
+	padding: 20px;
+}
+.list .term{
+	margin-top: 50px;
+	padding-left: 40px;
+	padding-bottom:40px;
+	border-bottom: 1px solid #D9D9D9;
+	font-size: 40px;
+	color: #888888;
+}
+.clear{
+	clear: both;
+}
+.score_list{
+	padding: 20px;
+}
+.every{
+	padding: 20px;
+	font-size: 40px;
+	border-bottom: 1px solid #D9D9D9;
+}
+.every .subject{
+	float: left;
+	width: 670px;
+	
+}
+.every .score{
+	float: left;
+}
+
+/*.subject table{
+	font-size: 40px;
+}
+.subject td{
+	border: 0px;
+	padding: 30px 110px;
+}
+.bg_hui{
+	background: #efefef;
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
