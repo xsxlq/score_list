@@ -6,13 +6,13 @@
   url('../font/iconfont.ttf') format('truetype'),
  url('../font/iconfont.svg#iconfont') format('svg');
 }
-@font-face {
+/* @font-face {
 	font-family:'tieshan';
 	src: url('../font/111.ttf');
 }
 body{
 	font-family: tieshan;
-}
+} */
 .iconfont{
   font-family:"iconfont" !important;
   font-size:16px;font-style:normal;
@@ -31,7 +31,7 @@ body{
 	padding: 0px;
 }
 .notice{
-	padding: 5px 10px;
+	padding: 10px 10px;
 	background: #303135;
 	color: white;
 }
