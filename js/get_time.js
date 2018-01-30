@@ -12,10 +12,20 @@ function showTime(){
 		h = "AM"
 	}
 	if(minutes<10){
-		var time = `${h} ${hours}:0${minutes}:${seconds}`;
+		if(seconds<10){
+			var time = `${h} ${hours}:0${minutes}:0${seconds}`;
+		}
+		else{
+			var time = `${h} ${hours}:0${minutes}:${seconds}`;
+		}
 	}
 	else{
-		var time = `${h} ${hours}:${minutes}:${seconds}`
+		if(seconds<10){
+			var time = `${h} ${hours}:${minutes}:0${seconds}`;
+		}
+		else{
+			var time = `${h} ${hours}:${minutes}:${seconds}`;
+		}
 	}
 	document.getElementById("get_time").innerHTML = time;
 }
