@@ -25,6 +25,10 @@ body{
 	clear: both;
 	display: block;
 }
+body{
+	margin: 0px;
+	padding: 0px;
+}
 .wai{
 	width: 1024px;
 	margin: 0px auto;
