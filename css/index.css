@@ -6,13 +6,13 @@
   url('../font/iconfont.ttf') format('truetype'),
  url('../font/iconfont.svg#iconfont') format('svg');
 }
-/* @font-face {
+/*@font-face {
 	font-family:'tieshan';
 	src: url('../font/111.ttf');
 }
 body{
 	font-family: tieshan;
-} */
+}*/
 .iconfont{
   font-family:"iconfont" !important;
   font-size:16px;font-style:normal;
@@ -20,22 +20,23 @@ body{
   -webkit-text-stroke-width: 0.2px;
   -moz-osx-font-smoothing: grayscale;
 }
+body{
+	margin: 0px;
+	padding: 0px;
+}
 .wai .notice:after,.menu:after{
 	content: "";
 	clear: both;
 	display: block;
 }
-body{
-	margin: 0px;
-	padding: 0px;
-}
 .wai{
+
 	width: 1024px;
 	margin: 0px auto;
 	padding: 0px;
 }
 .notice{
-	padding: 10px 10px;
+	padding: 10px;
 	background: #303135;
 	color: white;
 }
@@ -65,13 +66,28 @@ body{
 .big{
 	font-size: 18px;
 }
+.power_box{
+	float: right;
+}
+.power_num{
+	float: right;
+	margin-top: 1px;
+	display: inline-block;
+}
 .power{
 	float: right;
 	width: 50px;
 	height: 16px;
+	border: 1px solid white;
 	border-radius: 8px;
+	margin: 3px;
+}
+.power_inner{
+	width: 48px;
+	height: 14px;
 	background: white;
-	margin: 5px;
+	border-radius: 6px;
+	margin: 1px;
 }
 .menu{
 	background: #393A3F;
@@ -136,18 +152,6 @@ body{
 .every .score{
 	float: left;
 }
-
-/*.subject table{
-	font-size: 40px;
-}
-.subject td{
-	border: 0px;
-	padding: 30px 110px;
-}
-.bg_hui{
-	background: #efefef;
-}*/
-
 
 
 
